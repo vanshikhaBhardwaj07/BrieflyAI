@@ -1,6 +1,7 @@
 import BgGradient from "@/components/common/bg-gradient";
 import { Badge } from "@/components/ui/badge";
 import UploadForm from "@/components/upload/upload-form";
+
 import UploadHeader from "@/components/upload/upload-header";
 import { Sparkles } from "lucide-react";
 
