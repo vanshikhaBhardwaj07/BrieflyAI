@@ -16,7 +16,7 @@ export default clerkMiddleware((auth, req) => {
 
 export const config = {
   matcher: [
-    // Skip Next.js internals & public pages
-    "/((?!_next|sign-in|sign-up|pricing|favicon.ico).*)",
+    // Run middleware on all routes except static files
+    "/((?!_next|.*\\..*).*)",
   ],
 };
