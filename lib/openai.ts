@@ -1,14 +1,16 @@
 import { SUMMARY_SYSTEM_PROMPT } from "@/utils/prompts";
 import OpenAI from "openai";
 
+// Use Gemini API key instead of OpenAI
 const openai = new OpenAI({
-    apiKey: process.env.OPENAI_API_KEY
+    apiKey: process.env.GEMINI_API_KEY,
+    baseURL: "https://generativelanguage.googleapis.com/v1beta/openai/", // Gemini endpoint
 });
 
 export async function generateSummaryFromOpenAI(pdfText: string) {
     try {
         const completion = await openai.chat.completions.create({
-            model: "gpt-4.1-mini",
+            model: "gemini-2.5-flash", // Gemini model
             messages: [
                 { role: "system", content: SUMMARY_SYSTEM_PROMPT },
                 {
