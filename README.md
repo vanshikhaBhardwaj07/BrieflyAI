@@ -5,12 +5,8 @@ AI-powered PDF summarization SaaS that transforms lengthy PDFs into clear, struc
 **Live:** https://briefly-ai-project.vercel.app
 **Repo:** https://github.com/vanshikhaBhardwaj07/BrieflyAI
 
-<!--
-  TODO: add a screenshot of the app (upload flow or a generated summary) here.
-  Easiest way: open this file on github.com, click the pencil to edit,
-  and drag-and-drop an image straight into the text box — GitHub hosts
-  it automatically and writes the markdown link for you.
--->
+<img width="1717" height="843" alt="image" src="https://github.com/user-attachments/assets/4e9a975b-8d96-4c55-896c-5e758c5bd440" />
+
 
 ## Features
 
@@ -50,7 +46,8 @@ DATABASE_URL=
 GEMINI_API_KEY=
 RAZORPAY_KEY_ID=
 RAZORPAY_KEY_SECRET=
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<img width="1717" height="843" alt="Screenshot 2026-09-06 225139" src="https://github.com/user-attachments/assets/d6bc7c67-3844-4e5f-8fd5-7fb25948e66a" />
+
 CLERK_SECRET_KEY=
 UPLOADTHING_TOKEN=
 ```
